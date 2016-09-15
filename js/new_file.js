@@ -67,8 +67,7 @@ $("#w_con li img").hover(function(){
 $(function(){
 	$(".w962 li:first").find(".txt_bg").css({display:"block"});
 	$(".w962 li").hover(function(){
-		var num3=$(this).i
-		ndex()
+		var num3=$(this).index();
 		if(num3==0){
 			$(".w962 li:first").find(".txt_bg").css({display:"block"});
 		    $(this).addClass("show").siblings().removeClass("show");
